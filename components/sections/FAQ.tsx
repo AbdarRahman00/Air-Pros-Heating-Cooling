@@ -55,7 +55,7 @@ export function FAQ() {
             viewport={{ once: true }}
             className="bg-white rounded-[2.5rem] p-8 md:p-12 shadow-xl shadow-slate-200/50"
           >
-            <Accordion type="single" collapsible className="w-full">
+            <Accordion className="w-full">
               {FAQS.map((faq, index) => (
                 <AccordionItem key={index} value={`item-${index}`} className="border-slate-100 last:border-none">
                   <AccordionTrigger className="text-left font-bold text-lg text-slate-800 hover:text-secondary py-6">
